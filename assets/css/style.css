@@ -1,0 +1,154 @@
+/* #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100;300;400;500;700&display=swap");
+@font-face {
+  font-family: santoreg;
+  src: url(../fonts/TTF/Santio\ regular.ttf);
+}
+@font-face {
+  font-family: santobold;
+  src: url(../fonts/TTF/Santio\ Bold.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "santoreg";
+  background-color: transparent;
+}
+main,
+footer {
+  padding: 1.5% 8%;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: transparent;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#heart {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  border-bottom: 2px solid #e7bc0e;
+}
+h1 {
+  font-size: 5em;
+  color: #fff;
+  width: 29%;
+  margin-top: 10%;
+}
+p {
+  font-size: 3em;
+  font-family: "santobold";
+}
+.marked {
+  background-color: #29272b;
+  color: #fff;
+}
+main {
+  background-image: url("../img/cleo-topper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.493);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+#start,
+.numbers {
+  height: 100vh;
+}
+#hearticon::before {
+  background-image: url("../icons/heart.svg");
+  content: "d";
+  width: 60px;
+  height: 60px;
+  background-size: 40px;
+  font-size: 1.5em;
+  background-repeat: no-repeat;
+  padding-right: 60px;
+  color: transparent;
+  background-position: center;
+}
+#scroll {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 2em;
+  color: #e7bc0e;
+}
+#about,
+#conclusion {
+  line-height: 5.5em;
+}
+#about {
+  color: #6bc1a3;
+  line-height: 5.5em;
+  padding-left: 15%;
+}
+.numbers {
+  padding-top: 5%;
+  width: 90%;
+}
+.numbers img {
+  width: 20%;
+}
+.numbers p {
+  font-size: 4em;
+}
+.bigger {
+  font-size: 3.5em;
+}
+#people {
+  color: #e7bc0e;
+}
+#payment {
+  color: #cb91b6;
+}
+#health {
+  color: #6bc1a3;
+}
+#conclusion {
+  color: #cb91b6;
+  line-height: 5.5em;
+  padding-left: 30%;
+}
+#divider {
+  background: url("../img/kid.png") no-repeat center/cover fixed,
+    url("../img/see.png") no-repeat center/cover fixed;
+  height: 100vh;
+}
+footer {
+  background-color: black;
+  color: #efefef;
+}
+#final > p {
+  font-size: 8em;
+  width: 90%;
+}
+#button {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5em;
+  border: 2px solid;
+  padding: 22px;
+}
+
+#bottom {
+  text-align: center;
+  margin-top: 30%;
+}
+
+#bottom p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+}
+#roma {
+  color: #6bc1a3;
+}
